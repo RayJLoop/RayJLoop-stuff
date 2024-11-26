@@ -1,0 +1,105 @@
+body {
+  background-color:rgb(29, 2, 29)
+}
+
+header {
+  color:white;
+  background-color:purple;
+  border-right-color: goldenrod;
+}
+
+
+main,
+aside,
+footer,
+section,
+article {
+  padding: 2px;
+  font-family: sans-serif;
+  color:white;
+  background-color:white;
+ }
+
+ header,
+ main,
+ aside,
+ footer,
+ section {
+   border: 1px solid;
+   padding: 2px;
+   font-family: sans-serif;
+   border-color: purple;
+   
+  }
+ 
+  h2 {
+    font-weight: 900;
+    color: white;
+  }
+
+  header { font-family: sans-serif;
+  }
+
+  h3 {
+    font-weight:700;
+    color: white;
+  }
+
+  p,
+  li {
+    color:black
+  }
+
+  footer > .footerfont {
+    color: white;
+  } 
+
+  body,
+  section {
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: 1fr 1fr 1fr, 1fr;
+    
+  }
+  
+  header,
+  footer,
+  main {
+    grid-column: 1 / span 4;
+    
+  }
+  
+  header {
+    grid-row: 1;
+  }
+  footer {
+    grid-row: 4;
+    background-color: rgb(29, 2, 29);
+    border-color: transparent;
+    color: white;
+  }
+  
+  main,
+  aside {
+    grid-row: 3;
+  }
+  
+  body > main {
+    grid-column: 1 / span 3;
+  }
+  
+  section > section {
+    grid-column: 1 / span 4;
+  }
+
+
+.xmasfair {
+  display: block;
+  height: 65%;
+  width: 100%;
+  line-height: 0;
+  font-size: 0;
+  color: transparent;
+}
+
+
